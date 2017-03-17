@@ -10,7 +10,7 @@
     "semi": "error",
     "quotes": [
       "error",
-      "double"
+      "single"
     ],
     "no-unused-vars": "error",
     "consistent-return": "error",
