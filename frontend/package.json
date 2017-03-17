@@ -1,0 +1,55 @@
+{
+  "name": "yatta-frontend",
+  "version": "0.1.0",
+  "description": "N/A",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/redvox/yatta.git"
+  },
+  "keywords": [
+    "ganbatte"
+  ],
+  "author": "Jens Schaa, Laura Gohl",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/redvox/yatta/issues"
+  },
+  "homepage": "https://github.com/redvox/yatta#readme",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.13.2",
+    "babel-jest": "^14.1.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-module-require": "^1.4.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.24.0",
+    "enzyme": "^2.4.1",
+    "eslint": "^3.5.0",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-react": "^6.2.1",
+    "file-loader": "^0.9.0",
+    "jest-cli": "^16.0.2",
+    "node-sass": "^3.8.0",
+    "nodemon": "^1.9.2",
+    "react-addons-test-utils": "^15.3.1",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.0"
+  },
+  "dependencies": {
+    "ramda": "^0.22.1",
+    "react": "^15.3.0",
+    "react-bootstrap": "^0.30.7",
+    "react-dom": "^15.3.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0",
+    "whatwg-fetch": "^1.0.0"
+  }
+}
