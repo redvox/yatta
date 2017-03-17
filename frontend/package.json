@@ -4,7 +4,14 @@
   "description": "N/A",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/jest-cli/bin/jest.js --config jest-config.json",
+    "clean": "rm -rf target",
+    "cleanNode": "rm -rf node_modules",
+    "static-sass": "node-sass --output target/css src/sass",
+    "compile": "node_modules/webpack/bin/webpack.js --config webpack.config.prod.js --bail && cp src/html/index.html target",
+    "start": "node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --inline --config webpack.config.dev.js",
+    "watch:test": "npm run test -- --watch",
+    "lint": "node_modules/eslint/bin/eslint.js src/**/*.es6"
   },
   "repository": {
     "type": "git",
